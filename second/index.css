@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.top {
+    height: 200px;
+    width: 900px;
+    margin: 20px;
+    background: white;
+    border: 4px black;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top1, .top2, .top3 {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.top1 {
+    height: 140px;
+    width: 45px;
+    background: purple;
+    margin-right: 50px;
+    margin-left: 15px;
+}
+.top2 {
+    height: 180px;
+    width: 450px;
+    background: green;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+.top3 {
+    height: 200px;
+    width: 200px;
+    background: lightblue;
+    border-radius: 100px;
+}
+.middle {
+    height: 225px;
+    width: 900px;
+    background: white;
+    margin: 20px;
+    border: 4px black;
+    border-style: dotted;
+}
+.middle1 {
+    height: 165px;
+    width: 810px;
+    background: #f6efe4;
+    margin-top: 30px;
+    margin-left: 40px;
+    box-shadow: 7px 7px;
+}
+.bottom {
+    height: 350px;
+    width: 600px;
+    background: white;
+    margin: 0 auto;
+    border: 1px lightgrey;
+    border-style: solid;
+    box-shadow: 1px 1px;
+}
+p {
+    color: navy;
+    text-align: center;
+    padding-top: 175px;
+    font-size: 25px;
+    width: 135px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+}
